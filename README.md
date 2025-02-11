@@ -16,4 +16,17 @@ FaceBookNewsFeed is a simple Java-based simulation of a social network where use
   3. **Number of Comments**: Posts with more comments are shown higher.
   4. **Timestamp**: Newer posts are ranked higher if all other factors are equal.
 
+## Commands and Input Format
+
+The system works by accepting input commands in the following format:
+
+- Commands consist of keywords like `signup`, `login`, `post`, `follow`, `reply`, `upvote`, `downvote`, and `shownewsfeed`.
+- Arguments are separated by a special character `~` (tilde).
+
+### Command Structure:
+
+- **signup~<username>**: Registers a new user with the given username.
+- **login~<username>**: Logs in the user with the specified username.
+- **post~<content>**: A logged-in user can post content.
+- **follow~<username>**: A logged-in user follows another user
 
